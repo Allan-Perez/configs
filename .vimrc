@@ -1,5 +1,5 @@
 syntax on
-colorscheme sublimemonokai
+" colorscheme sublimemonokai
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -13,7 +13,7 @@ set list
 set relativenumber
 
 " Menu when looking for a file
-set wildmenu
+" set wildmenu
 
 " Provide tab completion when looking for files.
 set path+=**

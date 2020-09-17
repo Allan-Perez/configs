@@ -1,6 +1,5 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+source ~/.bash_profile
+source ~/.bashrc
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/allanperez/.oh-my-zsh"
 
@@ -98,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias ls='ls -color -h'
+alias v='nvim'
 export EDITOR='vim'
 #source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/sbin:$PATH"
@@ -105,8 +105,7 @@ export PATH="/usr/local/opt/binutils/bin:$PATH"
 export TERM="screen-256color"
 export LC_ALL=en_US.UTF-8
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
-eval "$(rbenv init -)"
+# export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
