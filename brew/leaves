@@ -1,7 +1,5 @@
 ansible
-aria2
 automake
-bison
 composer
 coq
 coreutils
@@ -10,17 +8,15 @@ docker
 docker-compose
 exiftool
 findutils
+gcc
 gdb
-gnupg
-htmldoc
 htop
-markdown
+lean
 mongodb/brew/mongodb-community
+nasm
 neovim
-nmap
-octave
+node
 openvpn
-qrencode
 rbenv
 rlwrap
 rust
@@ -28,6 +24,4 @@ tmux
 tree
 vim
 wget
-yarn
 zlib
-zsh
